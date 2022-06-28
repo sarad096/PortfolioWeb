@@ -215,7 +215,7 @@ function ContactForm(){
                   
 
                 </div>
-                <div className='btn--container--contact--form'>
+                <div className='btn-contact-form'>
 
                 <button type='submit' className='btn-submit'>Send</button>
                 </div>

@@ -3,6 +3,7 @@ import "./main.css"
 import imgintro from '../../Assets/images/imginfo1.png'
 import Typewriter from "typewriter-effect";
 import Particles from 'react-particles-js';
+
 import { particleConfig } from "../../config/Particleconfig";
 
 
@@ -32,10 +33,10 @@ const main = () => {
   <div className="intro-desc">
     <p> I am a technophile currently studying BSC CSIT in 3rd semester. I have keen interest in MERN stack. I am energetic,cogent and quick learner. I am currently exploring MERN stack. </p>
   </div>
-  <div className="resume">
+  {/* <div className="resume"> */}
           <button className="btn-resume" ><a href="https://drive.google.com/file/d/1hKmYhVjR3pZyUBvuXAQ9sdy-4GPpiCNb/view?usp=sharing" target="_blank" rel="noreferrer">Download CV</a>
 </button>
-</div>
+{/* </div> */}
        </div>
 
 <div className="right-desc">

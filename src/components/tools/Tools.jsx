@@ -1,5 +1,6 @@
 import React from 'react'
 import { AiFillHtml5 } from 'react-icons/ai';
+import {FaHtml5,FaCss3,FaCss3Alt,FaJs,FaBootstrap,FaReact,FaFigma} from 'react-icons/fa'
 import {IoLogoCss3} from 'react-icons/io'
 import {BsFillBootstrapFill} from 'react-icons/bs'
 import {DiMongodb,DiReact} from 'react-icons/di'
@@ -19,50 +20,50 @@ const Tools = () => {
 <div className='tools-icon-wrapper'>
 
 
-<IconContext.Provider value={{ color: "black", size:"100px", className: "global-class-name" }}>
+{/* <IconContext.Provider value={{ color: "red", size:"100px", className: "global-class-name" }}> */}
 
-  <AiFillHtml5 className="logo--size--adjust" />
+  <FaHtml5 className="logo--size--adjust html5" />
  
   
-</IconContext.Provider>
-<IconContext.Provider value={{ color: "black", size:"100px", className: "global-class-name" }}>
+{/* </IconContext.Provider> */}
+{/* <IconContext.Provider value={{ color: "blue", size:"100px", className: "global-class-name" }}> */}
 
-  <IoLogoCss3 className="logo--size--adjust"/>
+  <FaCss3Alt className="logo--size--adjust css3"/>
  
   
-</IconContext.Provider>
-<IconContext.Provider value={{ color: "black", size:"80px", className: "global-class-name" }}>
+{/* </IconContext.Provider> */}
+{/* <IconContext.Provider value={{ color: "#EAD41C", size:"100px", className: "global-class-name" }}> */}
 
-  <SiJavascript className="logo--size--adjust" />
-  
-
- 
-  
-</IconContext.Provider>
-<IconContext.Provider value={{ color: "black", size:"80px", className: "global-class-name" }}>
-
-<BsFillBootstrapFill className="logo--size--adjust"/>
+  <FaJs className="logo--size--adjust javascript" />
   
 
  
   
-</IconContext.Provider>
-<IconContext.Provider value={{ color: "black", size:"80px", className: "global-class-name" }}>
+{/* </IconContext.Provider> */}
+{/* <IconContext.Provider value={{ color: "C", size:"100px", className: "global-class-name" }}> */}
 
-<SiTailwindcss className="logo--size--adjust" />
+<FaBootstrap className="logo--size--adjust bootstrap"/>
   
 
  
   
-</IconContext.Provider>
-<IconContext.Provider value={{ color: "black", size:"80px", className: "global-class-name" }}>
+{/* </IconContext.Provider> */}
+{/* <IconContext.Provider value={{ color: "", size:"100px", className: "global-class-name" }}> */}
 
-<DiMongodb className="logo--size--adjust"/>
+<SiTailwindcss className="logo--size--adjust tailwind" />
   
 
  
   
-</IconContext.Provider>
+{/* </IconContext.Provider> */}
+{/* <IconContext.Provider value={{ color: "", size:"100px", className: "global-class-name" }}> */}
+
+<DiMongodb className="logo--size--adjust mongodb"/>
+  
+
+ 
+  
+{/* </IconContext.Provider> */}
 
 
       </div>
@@ -72,50 +73,50 @@ const Tools = () => {
 
 
       <div className='tools-icon-wrapper'>
-      <IconContext.Provider value={{ color: "black", size:"100px", className: "global-class-name" }}>
+      {/* <IconContext.Provider value={{ color: "black", size:"100px", className: "global-class-name" }}> */}
 
-<SiExpress className="logo--size--adjust"/>
-
-
-</IconContext.Provider>
-<IconContext.Provider value={{ color: "black", size:"100px", className: "global-class-name" }}>
-
-<DiReact className="logo--size--adjust"/>
+<SiExpress className="logo--size--adjust expressjs"/>
 
 
-</IconContext.Provider>
-<IconContext.Provider value={{ color: "black", size:"80px", className: "global-class-name" }}>
+{/* </IconContext.Provider> */}
+{/* <IconContext.Provider value={{ color: "", size:"100px", className: "global-class-name" }}> */}
 
-<FaNodeJs className="logo--size--adjust" />
-
-
+<FaReact className="logo--size--adjust react"/>
 
 
-</IconContext.Provider>
-<IconContext.Provider value={{ color: "black", size:"80px", className: "global-class-name" }}>
+{/* </IconContext.Provider> */}
+{/* <IconContext.Provider value={{ color: "", size:"100px", className: "global-class-name" }}> */}
 
-<FaGitAlt className="logo--size--adjust" />
+<FaNodeJs className="logo--size--adjust nodejs" />
 
 
 
 
-</IconContext.Provider>
-<IconContext.Provider value={{ color: "black", size:"80px", className: "global-class-name" }}>
+{/* </IconContext.Provider> */}
+{/* <IconContext.Provider value={{ color: "", size:"100px", className: "global-class-name" }}> */}
 
-<FiFigma className="logo--size--adjust"/>
-
-
-
-
-</IconContext.Provider>
-<IconContext.Provider value={{ color: "black", size:"80px", className: "global-class-name" }}>
-
-<SiAdobeillustrator className="logo--size--adjust"/>
+<FaGitAlt className="logo--size--adjust git" />
 
 
 
 
-</IconContext.Provider>
+{/* </IconContext.Provider> */}
+{/* <IconContext.Provider value={{ color: "black", size:"100px", className: "global-class-name" }}> */}
+
+<FaFigma className="logo--size--adjust figma"/>
+
+
+
+
+{/* </IconContext.Provider> */}
+{/* <IconContext.Provider value={{ color: "", size:"100px", className: "global-class-name" }}> */}
+
+<SiAdobeillustrator className="logo--size--adjust adobeillustrator"/>
+
+
+
+
+{/* </IconContext.Provider> */}
 
       </div>
 </div>

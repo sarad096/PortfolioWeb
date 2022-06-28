@@ -7,6 +7,7 @@ import Contact from "./components/contact/Contact"
 
 const App = () => {
   return <div className="mainroot">
+  
    <Navbar />
   <Main />
 <Project />

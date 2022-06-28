@@ -9,8 +9,8 @@ box-sizing: border-box;
 }
 
 header{
-    /* position: fixed; */
-    position: relative;
+    position: fixed;
+    /* position: relative; */
     /* background-color: green; */
     z-index: 1;
     width: 100%;
@@ -75,17 +75,24 @@ a.isactive{
 
 
 
-
+.hicon{
+    width: 30px;
+    height: 20px;
+    color: #4C3A51
+    ;
+}
 
 
 .hamburger {
-  
+    /* default was 40 */
   border: 0;
-  height: 40px;
+  height: 40px; 
   width: 40px;
   padding: 0.5rem;
-  border-radius: 50%;
-  background-color: #283b8b;
+  /* border-radius: 50%; */
+  /* background-color: #283b8b; */
+  background: none;
+  
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
   position: absolute;
@@ -94,9 +101,9 @@ a.isactive{
   transform: translateY(-50%);
   display: none;
 }
-.hamburger:hover {
+/* .hamburger:hover {
   background-color: #2642af;
-}
+} */
 
 @media screen and (max-width: 768px) {
     .hamburger {
@@ -126,9 +133,12 @@ a.isactive{
       flex-direction: column;
      
       width: 100%;
-      height: calc(100vh - 77px);
-      background-color: rgba(251, 240, 240, 0.966);
-      border-top: 1px solid black;
+      /* height: calc(60vh - 77px); */
+      height: fit-content;
+      /* background-color: rgba(251, 240, 240, 0.966); */
+      background-color: rgba(255, 255, 255, 0.4);
+      backdrop-filter: blur (5px);
+      /* border-top: 1px solid black; */
     }
     .navigation-menu li {
       

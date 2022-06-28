@@ -68,7 +68,7 @@ padding-bottom: 2rem;
     color:#2978b5
 }
 .btn-resume{
- 
+
  
  margin-top: 2rem;
     width: 180px;
@@ -101,6 +101,7 @@ padding-bottom: 2rem;
     position: absolute;
    /* min-height: 100vh; */
     /* overflow-y: hidden; */
+    
     max-height: 100vh !important;
     overflow-y: hidden !important;
 }
@@ -110,18 +111,16 @@ padding-bottom: 2rem;
 /* For very small mobile devices  */
 
 
-@media screen and (max-width: 319px) and (min-width:0px)
+@media screen and (max-width: 320px) and (min-width:0px)
 {
-    /* header{
-        display: none;
-    } */
+    
     .introdescription{
-        display: flex;
+        
         flex-direction: column-reverse;
-        align-items: center;
+     
         justify-content: center;
         
-        /* padding-top: 6rem; */
+       
         padding-bottom: 0.5rem;
         
     }
@@ -134,23 +133,24 @@ padding-bottom: 2rem;
     .tw-effect{
         
 
-        color: red;
-        font-weight: bold;
+      
+     
         font-size: 1.1rem;
         margin-top: 1rem;
      
     }
     .intro-heading{
-text-align: center;
-        line-height: 1.2;
-        font-weight: bold;
-        font-size: 1.5rem;
+        text-align: center;
+        
+   
+        font-size: 1.4rem;
     }
     .intro-desc p{
         font-size: 1rem;
-        margin-top: 1.4em;
-        max-width: 500px;
-        padding: 0px 0.5rem;
+        margin: 1rem 1rem 0rem 1rem;
+        padding: 0px 0.3rem;
+     
+
         
     }
     .btn-resume{
@@ -159,14 +159,9 @@ text-align: center;
         margin-top: 1rem;
            width: 100px;
           height: 40px;
-          outline: none;
-          border: none;
           font-size: 0.8rem;
-          font-weight: bold;
-          border-radius: 8px;
-          background-color: #FF4546;
-          color: white;
-          cursor: pointer;
+         
+          
           
           
           
@@ -182,18 +177,13 @@ text-align: center;
 
 /* For Most of the Smartphones  */
 
-@media screen and (max-width: 479px) and (min-width:320px)
+@media screen and (max-width: 480px) and (min-width:320px)
 {
-    /* header{
-        display: none;
-    } */
+  
     .introdescription{
-        display: flex;
+  
         flex-direction: column-reverse;
-        align-items: center;
         justify-content: center;
-        
-        /* padding-top: 6rem; */
         padding-bottom: 1rem;
         
     }
@@ -204,25 +194,24 @@ text-align: center;
     justify-content: center;
     }
     .tw-effect{
-        
-
-        color: red;
-        font-weight: bold;
         font-size: 1.5rem;
         margin-top: 1rem;
      
     }
     .intro-heading{
-text-align: center;
-        line-height: 1.2;
-        font-weight: bold;
+    text-align: center;
+     
+
         font-size: 2rem;
     }
     .intro-desc p{
         font-size: 1rem;
         margin-top: 1.4em;
-        max-width: 500px;
-        padding: 0px 2rem;
+         padding: 0px 2rem;
+    }
+    .btn-resume{
+        width: 125px;
+        height: 42.5px;
     }
  
 }
@@ -230,18 +219,19 @@ text-align: center;
 /* For low resolution Tablets  */
 
 
-@media screen and (max-width: 767px) and (min-width:480px)
+@media screen and (max-width: 768px) and (min-width:480px)
 {
-    /* header{
-        display: none;
-    } */
+    
+.particles{
+    height: fit-content !important;
+    overflow-y: hidden !important;
+    inset: 0;
+}
+
     .introdescription{
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
         
-        /* padding-top: 6rem; */
+        flex-direction: column-reverse;
+        justify-content: center;
         padding-bottom: 1rem;
         
     }
@@ -253,17 +243,12 @@ text-align: center;
     }
     .tw-effect{
         
-
-        color: red;
-        font-weight: bold;
         font-size: 1.7rem;
         margin-top: 1rem;
      
     }
     .intro-heading{
-text-align: center;
-        line-height: 1.2;
-        font-weight: bold;
+        text-align: center;
         font-size: 2.2rem;
     }
     .intro-desc p{
@@ -271,6 +256,10 @@ text-align: center;
         margin-top: 1.4em;
         max-width: 500px;
         padding: 0px 2rem;
+    }
+    .btn-resume{
+        width: 130px;
+        height: 45px;
     }
  
 }
@@ -281,16 +270,11 @@ text-align: center;
 
 @media screen and (max-width: 1023px) and (min-width:768px)
 {
-    /* header{
-        display: none;
-    } */
+   
     .introdescription{
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
         
-        /* padding-top: 6rem; */
+        flex-direction: column-reverse;
+        justify-content: center;
         padding-bottom: 1rem;
         
     }
@@ -304,78 +288,26 @@ text-align: center;
         
 
         color: blueviolet;
-        font-weight: bold;
+        
         font-size: 1.9rem;
         margin-top: 1rem;
      
     }
     .intro-heading{
-text-align: center;
-        line-height: 1.2;
-        font-weight: bold;
+        text-align: center;
+      
         font-size: 2.4rem;
     }
     .intro-desc p{
         font-size: 1.4rem;
         margin-top: 1.4em;
         max-width: 500px;
-        
         padding: 0px;
+    }
+    .btn-resume{
+        width: 135px;
+    height: 47.5px;
     }
  
 }
 
-/* For Laptops  */
-
-
-/* @media screen and (max-width: 1200px) and (min-width:1024px)
-{
-    
-    .introdescription{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-   
-    padding-top: 12rem;
-    padding-bottom: 2rem;
-      
-    }
-    .left-wrapper{
-        display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    }
-    .tw-effect{
-        
-
-        color: green;
-        font-weight: bold;
-        font-size: 2rem;
-        margin-top: 1rem;
-     
-    }
-    .intro-heading{
-text-align: center;
-        line-height: 1.2;
-        font-weight: bold;
-        font-size: 2.6rem;
-    }
-    .intro-desc p{
-        font-size: 1.4rem;
-        margin-top: 1.4em;
-        max-width: 500px;
-        
-        padding: 0px;
-    }
- 
-} */
-
-
-/* @media screen and (max-width:320px){
-    .particles{
-        max-height: 100vh !important;
-        overflow-y: hidden !important;
-    
-    }
-} */

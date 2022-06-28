@@ -7,6 +7,43 @@ html {
   scroll-behavior: smooth;
 }
 
+
+.logo--size--adjust{
+  width: 100px;
+  height: 100px;
+}
+.html5{
+  fill: red;
+}
+.css3{
+  fill: blue;
+}
+.javascript{
+  fill: #EAD41C;
+}
+.bootstrap{
+  fill: #8B0BFC;
+}
+.tailwind{
+  fill: #38BDF8;
+}
+.mongodb{
+  fill: #119250;
+}
+.react{
+  fill: #61DBFB;
+}
+.nodejs{
+  fill: #8CC84B;
+}
+.git{
+  fill: #F34F29;
+}
+.adobeillustrator{
+  fill: #330000;
+}
+
+
 .tools-heading {
   font-weight: bold;
   font-size: 50px;
@@ -31,19 +68,17 @@ html {
 /* For very low screen device  */
 
 
-@media screen and (max-width: 319px) and (min-width:0px) {
+@media screen and (max-width: 320px) and (min-width:0px) {
   .logo--size--adjust {
     color: blue !important;
     width: 20px;
     height: 20px;
   }
   .tools-heading {
-    font-weight: bold;
+    
     font-size: 25px;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
   }
 }
 
@@ -51,7 +86,7 @@ html {
 
 /* For Most of the Smartphones  */
 
-@media screen and (max-width: 479px) and (min-width:320px) {
+@media screen and (max-width: 480px) and (min-width:320px) {
   .logo--size--adjust {
     color: blue !important;
     min-width: 30px;
@@ -60,29 +95,25 @@ html {
     max-height: 40px;
   }
   .tools-heading {
-    font-weight: bold;
+   
     font-size: 35px;
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-    margin: 15px;
+    
+    padding: 12px;
+    margin: 12px;
   }
 }
 
 
 /* For low resoltion tablets  */
 
-@media screen and (max-width: 767px) and (min-width:480px) {
+@media screen and (max-width: 768px) and (min-width:480px) {
   .logo--size--adjust {
     color: blue !important;
   width: 40px;
   height: 40px;
   }
   .tools-heading {
-    font-weight: bold;
     font-size: 35px;
-    display: flex;
-    justify-content: center;
     padding: 15px;
     margin: 15px;
   }
@@ -98,30 +129,11 @@ html {
   height: 45px;
   }
   .tools-heading {
-    font-weight: bold;
-    font-size: 35px;
-    display: flex;
-    justify-content: center;
+    
+    font-size: 40px;
     padding: 15px;
     margin: 15px;
   }
 }
 
-/* For Laptops  */
 
-
-/* @media screen and (max-width: 1200px) and (min-width:1024px) { */
-  /* .logo--size--adjust {
-    color: blue !important;
-  width: 50px;
-  height: 50px;
-  } */
-  /* .tools-heading {
-    font-weight: bold;
-    font-size: 35px;
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-    margin: 15px;
-  }
-} */
