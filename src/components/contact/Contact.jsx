@@ -40,7 +40,7 @@ text = "saradgyawali234@gmail.com"
 icon = {
     
 <IconContext.Provider  value={{ color: "black", size:"33px", className: "global-class-name" }}>
-<a href='https://github.com/sarad096' target="_blank">
+<a href='https://github.com/sarad096' target="_blank" rel='noreferrer'>
 <AiFillGithub />
     </a>
 
@@ -72,7 +72,7 @@ text = "Butwal, Province-5, Nepal"
 icon = {
 <IconContext.Provider value={{ color: "black", size:"33px", className: "global-class-name" }}>
 
-<a href='https://facebook.com/itsmesarad' target="_blank">
+<a href='https://facebook.com/itsmesarad' target="_blank" rel='noreferrer'>
 <AiFillFacebook />
 
 </a>
@@ -88,7 +88,7 @@ text = "Butwal, Province-5, Nepal"
 <ContactItem 
 icon = {
 <IconContext.Provider value={{ color: "black", size:"33px", className: "global-class-name" }}>
-<a href='https://instagram.com/itssaradgyawali' target="_blank">
+<a href='https://instagram.com/itssaradgyawali' target="_blank" rel='noreferrer'>
 
 <AiOutlineInstagram />
 </a>
