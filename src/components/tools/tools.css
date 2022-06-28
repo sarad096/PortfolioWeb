@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.tools-heading {
+  font-weight: bold;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+}
+.tools-icon-container {
+  width: 100vw;
+  margin: 0px auto;
+}
+.tools-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+
+
+/* For very low screen device  */
+
+
+@media screen and (max-width: 319px) and (min-width:0px) {
+  .logo--size--adjust {
+    color: blue !important;
+    width: 20px;
+    height: 20px;
+  }
+  .tools-heading {
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+  }
+}
+
+
+
+/* For Most of the Smartphones  */
+
+@media screen and (max-width: 479px) and (min-width:320px) {
+  .logo--size--adjust {
+    color: blue !important;
+    min-width: 30px;
+    min-height: 30px;
+    max-width: 40px;
+    max-height: 40px;
+  }
+  .tools-heading {
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 15px;
+  }
+}
+
+
+/* For low resoltion tablets  */
+
+@media screen and (max-width: 767px) and (min-width:480px) {
+  .logo--size--adjust {
+    color: blue !important;
+  width: 40px;
+  height: 40px;
+  }
+  .tools-heading {
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 15px;
+  }
+}
+
+/* For Tablets/Ipad  */
+
+
+@media screen and (max-width: 1023px) and (min-width:768px) {
+  .logo--size--adjust {
+    color: blue !important;
+  width: 45px;
+  height: 45px;
+  }
+  .tools-heading {
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 15px;
+  }
+}
+
+/* For Laptops  */
+
+
+/* @media screen and (max-width: 1200px) and (min-width:1024px) { */
+  /* .logo--size--adjust {
+    color: blue !important;
+  width: 50px;
+  height: 50px;
+  } */
+  /* .tools-heading {
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 15px;
+  }
+} */

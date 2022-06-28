@@ -1,0 +1,367 @@
+/* New CSS  */
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+.mainroot{
+    overflow-x: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.intro{
+    background-color: #F8F8F8; 
+    /* background-color: red; */
+    min-height: 100vh;
+    height: fit-content;
+}
+
+.introdescription{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+/* margin-top: 3rem; */
+padding-top: 12rem;
+padding-bottom: 2rem;
+    /* background-color: yellow; */
+}
+.intro-desc p{
+    font-size: 1.2rem;
+    margin-top: 2.4em;
+    max-width: 500px;
+}
+.resume{
+    display: inline;
+ 
+}
+.typewriter{
+    display: inline;
+}
+.right-desc{
+    display: inline;
+}
+
+
+.tw-effect{
+    color: red;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 1.2rem;
+ 
+}
+.intro-heading{
+   line-height: 1.2;
+    
+    
+    font-weight: bold;
+    font-size: 3rem;
+}
+.ih-2{
+    color:#2978b5
+}
+.btn-resume{
+ 
+
+ margin-top: 2rem;
+    width: 180px;
+   height: 50px;
+   outline: none;
+   border: none;
+   font-size: 1rem;
+   font-weight: bold;
+   border-radius: 8px;
+   background-color: #FF4546;
+   color: white;
+   cursor: pointer;
+   
+   
+   
+   }
+
+.btn-resume>a{
+    
+    text-decoration: none;
+    color: white; 
+ } 
+
+.btn-resume:hover{
+    background-color: black;
+    
+}
+.particles{
+    position: absolute;
+   min-height: 100vh;
+    overflow-y: hidden;
+}
+
+
+
+/* For very small mobile devices  */
+
+
+@media screen and (max-width: 319px) and (min-width:0px)
+{
+    header{
+        display: none;
+    }
+    .introdescription{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        
+        /* padding-top: 6rem; */
+        padding-bottom: 0.5rem;
+        
+    }
+    .left-wrapper{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .tw-effect{
+        
+
+        color: red;
+        font-weight: bold;
+        font-size: 1.1rem;
+        margin-top: 1rem;
+     
+    }
+    .intro-heading{
+text-align: center;
+        line-height: 1.2;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    .intro-desc p{
+        font-size: 1rem;
+        margin-top: 1.4em;
+        max-width: 500px;
+        padding: 0px 0.5rem;
+        
+    }
+    .btn-resume{
+ 
+    
+        margin-top: 1rem;
+           width: 100px;
+          height: 40px;
+          outline: none;
+          border: none;
+          font-size: 0.8rem;
+          font-weight: bold;
+          border-radius: 8px;
+          background-color: #FF4546;
+          color: white;
+          cursor: pointer;
+          
+          
+          
+          }
+ 
+}
+
+
+
+
+
+
+
+/* For Most of the Smartphones  */
+
+@media screen and (max-width: 479px) and (min-width:320px)
+{
+    header{
+        display: none;
+    }
+    .introdescription{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        
+        /* padding-top: 6rem; */
+        padding-bottom: 1rem;
+        
+    }
+    .left-wrapper{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .tw-effect{
+        
+
+        color: red;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+     
+    }
+    .intro-heading{
+text-align: center;
+        line-height: 1.2;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .intro-desc p{
+        font-size: 1rem;
+        margin-top: 1.4em;
+        max-width: 500px;
+        padding: 0px 2rem;
+    }
+ 
+}
+
+/* For low resolution Tablets  */
+
+
+@media screen and (max-width: 767px) and (min-width:480px)
+{
+    header{
+        display: none;
+    }
+    .introdescription{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        
+        /* padding-top: 6rem; */
+        padding-bottom: 1rem;
+        
+    }
+    .left-wrapper{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .tw-effect{
+        
+
+        color: red;
+        font-weight: bold;
+        font-size: 1.7rem;
+        margin-top: 1rem;
+     
+    }
+    .intro-heading{
+text-align: center;
+        line-height: 1.2;
+        font-weight: bold;
+        font-size: 2.2rem;
+    }
+    .intro-desc p{
+        font-size: 1.2rem;
+        margin-top: 1.4em;
+        max-width: 500px;
+        padding: 0px 2rem;
+    }
+ 
+}
+
+
+/* For Tablets/Ipad  */
+
+
+@media screen and (max-width: 1023px) and (min-width:768px)
+{
+    header{
+        display: none;
+    }
+    .introdescription{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        
+        /* padding-top: 6rem; */
+        padding-bottom: 1rem;
+        
+    }
+    .left-wrapper{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .tw-effect{
+        
+
+        color: blueviolet;
+        font-weight: bold;
+        font-size: 1.9rem;
+        margin-top: 1rem;
+     
+    }
+    .intro-heading{
+text-align: center;
+        line-height: 1.2;
+        font-weight: bold;
+        font-size: 2.4rem;
+    }
+    .intro-desc p{
+        font-size: 1.4rem;
+        margin-top: 1.4em;
+        max-width: 500px;
+        
+        padding: 0px;
+    }
+ 
+}
+
+/* For Laptops  */
+
+
+/* @media screen and (max-width: 1200px) and (min-width:1024px)
+{
+    
+    .introdescription{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+   
+    padding-top: 12rem;
+    padding-bottom: 2rem;
+      
+    }
+    .left-wrapper{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .tw-effect{
+        
+
+        color: green;
+        font-weight: bold;
+        font-size: 2rem;
+        margin-top: 1rem;
+     
+    }
+    .intro-heading{
+text-align: center;
+        line-height: 1.2;
+        font-weight: bold;
+        font-size: 2.6rem;
+    }
+    .intro-desc p{
+        font-size: 1.4rem;
+        margin-top: 1.4em;
+        max-width: 500px;
+        
+        padding: 0px;
+    }
+ 
+} */
