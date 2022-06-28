@@ -14,6 +14,7 @@ html{
     scroll-behavior: smooth;
 }
 .intro{
+    
     background-color: #F8F8F8; 
     /* background-color: red; */
     min-height: 100vh;
@@ -21,7 +22,7 @@ html{
 }
 
 .introdescription{
-  
+ 
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -37,6 +38,7 @@ padding-bottom: 2rem;
     max-width: 500px;
 }
 .resume{
+    
     display: inline;
  
 }
@@ -67,7 +69,7 @@ padding-bottom: 2rem;
 }
 .btn-resume{
  
-
+ 
  margin-top: 2rem;
     width: 180px;
    height: 50px;
@@ -95,9 +97,12 @@ padding-bottom: 2rem;
     
 }
 .particles{
+ 
     position: absolute;
-   min-height: 100vh;
-    overflow-y: hidden;
+   /* min-height: 100vh; */
+    /* overflow-y: hidden; */
+    max-height: 100vh !important;
+    overflow-y: hidden !important;
 }
 
 
@@ -364,4 +369,13 @@ text-align: center;
         padding: 0px;
     }
  
+} */
+
+
+/* @media screen and (max-width:320px){
+    .particles{
+        max-height: 100vh !important;
+        overflow-y: hidden !important;
+    
+    }
 } */

@@ -11,8 +11,8 @@ const main = () => {
   return (
 
 <section className="intro" id="home">
-  
 <Particles className="particles" params={particleConfig} />  
+  
   <main className="main">
 <div className="introdescription">
 <div className="left-wrapper">
