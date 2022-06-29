@@ -7,42 +7,40 @@ html {
   scroll-behavior: smooth;
 }
 
-
-.logo--size--adjust{
+.logo--size--adjust {
   width: 100px;
   height: 100px;
 }
-.html5{
+.html5 {
   fill: red;
 }
-.css3{
+.css3 {
   fill: blue;
 }
-.javascript{
-  fill: #EAD41C;
+.javascript {
+  fill: #ead41c;
 }
-.bootstrap{
-  fill: #8B0BFC;
+.bootstrap {
+  fill: #8b0bfc;
 }
-.tailwind{
-  fill: #38BDF8;
+.tailwind {
+  fill: #38bdf8;
 }
-.mongodb{
+.mongodb {
   fill: #119250;
 }
-.react{
-  fill: #61DBFB;
+.react {
+  fill: #61dbfb;
 }
-.nodejs{
-  fill: #8CC84B;
+.nodejs {
+  fill: #8cc84b;
 }
-.git{
-  fill: #F34F29;
+.git {
+  fill: #f34f29;
 }
-.adobeillustrator{
+.adobeillustrator {
   fill: #330000;
 }
-
 
 .tools-heading {
   font-weight: bold;
@@ -63,30 +61,24 @@ html {
   margin-bottom: 2rem;
 }
 
-
-
 /* For very low screen device  */
 
-
-@media screen and (max-width: 320px) and (min-width:0px) {
+@media screen and (max-width: 320px) and (min-width: 0px) {
   .logo--size--adjust {
     color: blue !important;
     width: 20px;
     height: 20px;
   }
   .tools-heading {
-    
     font-size: 25px;
     padding: 8px;
     margin: 8px;
   }
 }
 
-
-
 /* For Most of the Smartphones  */
 
-@media screen and (max-width: 480px) and (min-width:320px) {
+@media screen and (max-width: 480px) and (min-width: 320px) {
   .logo--size--adjust {
     color: blue !important;
     min-width: 30px;
@@ -95,22 +87,20 @@ html {
     max-height: 40px;
   }
   .tools-heading {
-   
     font-size: 35px;
-    
+
     padding: 12px;
     margin: 12px;
   }
 }
 
-
 /* For low resoltion tablets  */
 
-@media screen and (max-width: 768px) and (min-width:480px) {
+@media screen and (max-width: 768px) and (min-width: 480px) {
   .logo--size--adjust {
     color: blue !important;
-  width: 40px;
-  height: 40px;
+    width: 40px;
+    height: 40px;
   }
   .tools-heading {
     font-size: 35px;
@@ -121,19 +111,15 @@ html {
 
 /* For Tablets/Ipad  */
 
-
-@media screen and (max-width: 1023px) and (min-width:768px) {
+@media screen and (max-width: 1023px) and (min-width: 768px) {
   .logo--size--adjust {
     color: blue !important;
-  width: 45px;
-  height: 45px;
+    width: 45px;
+    height: 45px;
   }
   .tools-heading {
-    
     font-size: 40px;
     padding: 15px;
     margin: 15px;
   }
 }
-
-
