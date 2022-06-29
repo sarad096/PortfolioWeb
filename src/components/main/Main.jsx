@@ -9,6 +9,7 @@ import { particleConfig } from "../../config/Particleconfig";
 const main = () => {
   return (
     <section className="intro" id="home">
+      <Particles className="particles" params={particleConfig} />
       <main className="main">
         <div className="introdescription">
           <div className="left-wrapper">
@@ -50,7 +51,7 @@ const main = () => {
         </div>
       </main>
 
-      <Particles className="particles" params={particleConfig} />
+      
     </section>
   );
 };

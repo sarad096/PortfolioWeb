@@ -8,10 +8,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.contact-wrapper {
-  height: 100vh;
-}
-
 .contact-title {
   font-weight: bold;
   font-size: 50px;
