@@ -95,13 +95,7 @@ html {
 .btn-resume:hover {
   background-color: black;
 }
-.particles {
-  position: absolute;
-  inset: 0;
-  min-height: 100vh !important;
-  max-height: 100vh !important;
-  overflow-y: hidden !important;
-}
+
 
 /* For very small mobile devices  */
 

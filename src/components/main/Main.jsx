@@ -2,14 +2,12 @@ import React from "react";
 import "./main.css";
 import imgintro from "../../Assets/images/imginfo1.png";
 import Typewriter from "typewriter-effect";
-import Particles from "react-particles-js";
 
-import { particleConfig } from "../../config/Particleconfig";
 
 const main = () => {
   return (
     <section className="intro" id="home">
-      <Particles className="particles" params={particleConfig} />
+      
       <main className="main">
         <div className="introdescription">
           <div className="left-wrapper">
