@@ -88,7 +88,7 @@ const Contact = () => {
                 </a>
               </IconContext.Provider>
             }
-            text="Butwal, Province-5, Nepal"
+            text="itsmesarad"
           />
           <ContactItem
             icon={
@@ -108,7 +108,7 @@ const Contact = () => {
                 </a>
               </IconContext.Provider>
             }
-            text="Butwal, Province-5, Nepal"
+            text="itssaradgyawali"
           />
         </div>
 
