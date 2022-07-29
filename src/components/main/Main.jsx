@@ -1,5 +1,6 @@
 import React from "react";
 import "./main.css";
+import CV from "../resume/cv.pdf"
 import imgintro from "../../Assets/images/imginfo1.png";
 import Typewriter from "typewriter-effect";
 
@@ -34,7 +35,8 @@ const main = () => {
 
             <button className="btn-resume">
               <a
-                href="https://drive.google.com/file/d/1hKmYhVjR3pZyUBvuXAQ9sdy-4GPpiCNb/view?usp=sharing"
+                // href="https://drive.google.com/file/d/1hKmYhVjR3pZyUBvuXAQ9sdy-4GPpiCNb/view?usp=sharing"
+                href={CV}
                 target="_blank"
                 rel="noreferrer"
               >
